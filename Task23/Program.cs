@@ -4,6 +4,7 @@
 
 Console.WriteLine("Введите число");
 int num = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Таблица кубов до числа {num}");
 
 for (int i = 1; i <= num; i++)
 {
